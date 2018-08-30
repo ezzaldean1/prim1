@@ -3,7 +3,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 
-lient.on('ready', () => {
+client.on('ready', () => {
  client.user.setGame('#Bُubbles Tumblr .. ','https://www.twitch.tv/peery13');
   console.log('---------------');
   console.log(' Platinum Bot Is Online')
