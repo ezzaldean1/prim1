@@ -1,1 +1,1 @@
-worker: node prim1.js.js
+worker: node prim1.js
