@@ -2,11 +2,7 @@ const Discord = require('discord.js');
 
 const client = new Discord.Client();
 
-client.on('ready', () => {
 
-    client.channels.find(c => c.id === '495289737238675456').join();
-
-});
 client.on('ready', () => {
  client.user.setGame('#Bُubbles Tumblr .. ','https://www.twitch.tv/peery13');
   console.log('---------------');
